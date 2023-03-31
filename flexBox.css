@@ -1,0 +1,40 @@
+.fcontainer{
+    border: 5px solid red;
+    display: flex;
+    height: 45vh;
+    /* height: auto; */
+    /* flex-direction: column; */
+    /* justify for horizontal allignment */
+    justify-content:center;
+    /* allign for vertical allignment */
+    /* align-items: center; */
+    flex-wrap: wrap;
+
+}
+
+.fitems{
+    background-color: aqua;
+    border: 2px solid black;
+    margin: 5px;
+    width: 100px;
+    height: 100px;
+    
+
+}
+.item1{
+    flex-shrink: 1;
+    align-self: center;
+
+}
+.item2{
+    flex-shrink: 2;
+
+}
+.item3{
+    flex-shrink: 3;
+
+}
+
+.item4{
+    flex-shrink: 4;
+}
